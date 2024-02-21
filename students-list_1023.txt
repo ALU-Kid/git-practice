@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+IFS="," read -p "Enter student ID, age, email : " studId age email
+
+echo "Student Id : $studId"
+echo "Age : $age"
+echo "Email : $email"
+                      
